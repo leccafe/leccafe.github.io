@@ -13124,8 +13124,14 @@ ul {
   .callout.large {
     background-size: auto 100%;
   }
+
+  /* line 72, ../scss/_module.scss */
+  .medium-padding {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
-/* line 73, ../scss/_module.scss */
+/* line 78, ../scss/_module.scss */
 .button.large.hollow:hover {
   border-color: #FFFFFF;
   color: #FFFFFF;
@@ -13136,7 +13142,7 @@ ul {
 　　　へっどらいん
 
 ---------------------------------------------*/
-/* line 85, ../scss/_module.scss */
+/* line 90, ../scss/_module.scss */
 h2.title {
   font-size: 1.5625rem;
   font-weight: bold;
@@ -13145,22 +13151,22 @@ h2.title {
   display: inline-block;
 }
 
-/* line 93, ../scss/_module.scss */
+/* line 98, ../scss/_module.scss */
 h3 {
   margin: 1rem 0;
   position: relative;
 }
-/* line 97, ../scss/_module.scss */
+/* line 102, ../scss/_module.scss */
 h3.list-headline {
   font-size: 1.4375rem;
   font-weight: bold;
   color: #666666;
 }
-/* line 103, ../scss/_module.scss */
+/* line 108, ../scss/_module.scss */
 h3 span {
   display: block;
 }
-/* line 106, ../scss/_module.scss */
+/* line 111, ../scss/_module.scss */
 h3 span.title {
   font-size: 1.25rem;
   color: #666666;
@@ -13171,7 +13177,7 @@ h3 span.title {
 　　　パターン
 
 ---------------------------------------------*/
-/* line 120, ../scss/_module.scss */
+/* line 125, ../scss/_module.scss */
 .circle.font-awesome {
   width: 80px;
   height: 80px;
@@ -13186,7 +13192,7 @@ h3 span.title {
   margin: 20px 0 0 0;
 }
 
-/* line 133, ../scss/_module.scss */
+/* line 138, ../scss/_module.scss */
 img.circle {
   width: 100%;
   max-width: 200px;
@@ -13194,36 +13200,37 @@ img.circle {
   margin-top: 1.5rem;
 }
 
-/* line 141, ../scss/_module.scss */
+/* line 146, ../scss/_module.scss */
 ul.side-by-side li {
   float: left;
   margin: 5px;
 }
-/* line 146, ../scss/_module.scss */
+/* line 151, ../scss/_module.scss */
 ul.side-by-side.social {
   margin: -5px 0 0;
   position: absolute;
   bottom: 0;
   right: 0;
 }
-/* line 150, ../scss/_module.scss */
+/* line 155, ../scss/_module.scss */
 ul.side-by-side.social li {
   font-size: 1.125rem;
 }
-/* line 152, ../scss/_module.scss */
+/* line 157, ../scss/_module.scss */
 ul.side-by-side.social li a {
   color: #222222;
 }
-/* line 154, ../scss/_module.scss */
+/* line 159, ../scss/_module.scss */
 ul.side-by-side.social li a:hover {
   color: #BF0008;
 }
-/* line 161, ../scss/_module.scss */
+/* line 166, ../scss/_module.scss */
 ul.side-by-side.skill {
   margin: 0 0 20px;
 }
-/* line 163, ../scss/_module.scss */
+/* line 168, ../scss/_module.scss */
 ul.side-by-side.skill li {
+  margin: 5px 10px 5px 0;
   padding: 2px 10px 0 10px;
   font-size: 0.8125rem;
   color: #FFFFFF;
@@ -13236,35 +13243,37 @@ ul.side-by-side.skill li {
 　　　Header
 
 ---------------------------------------------*/
-/* line 181, ../scss/_module.scss */
+/* line 187, ../scss/_module.scss */
 .header-nav h1.logo {
   padding: 0.5rem 1rem;
   line-height: 1;
   margin: 0;
-  font-size: inherit;
   color: #BF0008;
 }
-/* line 188, ../scss/_module.scss */
+/* line 193, ../scss/_module.scss */
 .header-nav h1.logo a {
-  font-size: inherit;
   color: #BF0008;
   font-weight: bold;
   font-size: 1.5625rem;
   margin: 0;
   padding: 0;
 }
+/* line 200, ../scss/_module.scss */
+.header-nav h1.logo a:hover {
+  cursor: default;
+}
 
-/* line 198, ../scss/_module.scss */
+/* line 206, ../scss/_module.scss */
 .top-bar {
   position: relative;
   background-color: #FFFFFF;
 }
-/* line 202, ../scss/_module.scss */
+/* line 210, ../scss/_module.scss */
 .top-bar ul {
   background-color: #FFFFFF;
 }
 
-/* line 213, ../scss/_module.scss */
+/* line 221, ../scss/_module.scss */
 .top-bar-center li {
   display: block;
 }
@@ -13274,7 +13283,7 @@ ul.side-by-side.skill li {
 　　　Footer
 
 ---------------------------------------------*/
-/* line 224, ../scss/_module.scss */
+/* line 232, ../scss/_module.scss */
 footer {
   background-color: #BF0008;
   color: #FFFFFF;
